@@ -1,0 +1,5 @@
+# Keep shell scripts LF even on a Windows checkout, or Docker's /bin/bash
+# fails with "bad interpreter: /bin/bash^M"
+* text=auto
+*.sh text eol=lf
+Dockerfile text eol=lf
