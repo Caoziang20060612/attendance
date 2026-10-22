@@ -1,0 +1,13 @@
+# Render Blueprint — Simple Attendance by Seat Id
+# Service name attend95555 -> https://attend95555.onrender.com/
+services:
+  - type: web
+    name: attend95555
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+    envVars:
+      - key: TZ
+        value: Asia/Shanghai
