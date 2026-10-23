@@ -2,5 +2,5 @@
 .gitignore
 build
 *.war
-*.class
+**/*.class
 *.log
