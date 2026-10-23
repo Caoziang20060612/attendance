@@ -1,0 +1,11 @@
+version: 1
+
+type: web
+
+build:
+  framework: dockerfile
+  root_dir: .
+  dockerfile: Dockerfile
+
+run:
+  port: 8080
